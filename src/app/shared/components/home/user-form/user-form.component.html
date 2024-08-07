@@ -1,0 +1,13 @@
+<div class="card">
+    <div class="card-body">
+        <form>
+            <div class="form-group">
+                <label for="username">UserName<sup class="text-danger">*</sup></label>
+                <input type="text" #username class="form-control" id="username">
+            </div>
+            <button
+            (click)="getUserName()"
+            type="submit" class="btn-primary btn btn-sm btn-block">Add Users</button>
+        </form>
+    </div>
+</div>
